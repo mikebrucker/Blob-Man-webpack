@@ -15,6 +15,10 @@ module.exports = {
 			{
 				from: path.resolve(__dirname, 'index.html'),
 				to: path.resolve(__dirname, 'dist/')
+			},
+			{
+				from: path.resolve(__dirname, 'favicon.ico'),
+				to: path.resolve(__dirname, 'dist/')
 			}
 		]),
 		new webpack.DefinePlugin({
